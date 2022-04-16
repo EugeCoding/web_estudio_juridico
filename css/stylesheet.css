@@ -248,7 +248,6 @@ main{
 }
 
 .contactar_button a {
-    font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
     font-size: 1.5rem;
     font-weight: 400;
@@ -325,16 +324,16 @@ footer {
     padding: 10px;
 }
 
-.footer__column h3 {
-    font-family: 'Raleway', sans-serif;
+.footer__column p {
     font-size: 1.5rem;
     font-weight: 500;
 }
 
 .footer__column ul li {
-    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     list-style: none;
+}
+.footer__column ul li a{
     text-decoration: none;
 }
 
@@ -395,7 +394,6 @@ footer {
     background-color: rgb(109, 109, 109);
     border: none;
     border-radius: 5px;
-    font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
     font-size: 1rem;
     font-weight: 300;
@@ -416,7 +414,6 @@ footer {
 /* ---------------- PÁGINA RHH ------------------*/
 
 .subtitulo_paginaRRHH {
-    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
 }
 
