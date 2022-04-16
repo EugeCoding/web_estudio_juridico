@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="../images/logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <!-- Font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header__boxcontainer">
+            <a href="../index.html">
+                <img src="../images/logo.jpg" alt="logo" class="logo_Image">
+            </a>
+        </div>
+        <label for="menu" class="header__burguerMenu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu">
+        <nav class="header__menudespegable">
+            <label for="menu" class="header__closeMenu">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </label>
+            <ul class="lista__menu">
+                <li><a href="../pages/index.html">Inicio</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/areas_de_practica.html">Áreas de Práctica</a></li>
+                <li><a href="../pages/servicios.html">Servicios</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN  -->
+
+
+
+    <main class="main_contacto">
+        <h1>Contacto</h1>
+        <p>Si tiene alguna duda, consulta o necesita contratar nuestros servicios, puede escribirnos a través del
+            formulario. Recibirá una respuesta en la mayor brevedad posible.</p>
+
+
+        <div class="flex-containter__contacto">
+            <form class="formulario__contacto" action="/ruta-destino" method="get">
+                <fieldset class="formulario__contacto">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="text" name="lastname" placeholder="Apellido" required>
+                    <input type="text" name="email" placeholder="E-mail" required>
+                    <input type="tel" name="phone" placeholder="Celular">
+                    <textarea name="messege" class="textarea__contacto" placeholder="Dejenos su consulta" cols="50"
+                        rows="10"> </textarea required>
+                <div class="formulario__botones">
+                    <button type="reset">Limpiar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+                </fieldset>
+                
+            </form>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.752001634763!2d-58.97383018494361!3d-27.445838582901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450cff2837162f%3A0x11d76910f225a01e!2sEJP%2C%20Av.%20Italia%201200%2C%20H3508%20Resistencia%2C%20Chaco!5e0!3m2!1ses!2sar!4v1647428736010!5m2!1ses!2sar">   
+            </iframe>
+            <div class="datos">
+                <p>Email: contacto@serranomorenate.com </p>
+                <p>Tel: 12 123 1234</p>
+                <p>Dirección: Av. Italia 1234, Resistencia, Chaco</p>
+            </div>
+        </div>
+       
+</main>
+
+<!-- FOOTER  -->
+<footer>
+    <div>
+        <div class="footer__column">
+            <h3>Institucional</h3>
+            <nav>
+                <ul>
+                    <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="./contacto.html">Donde estamos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./rrhh.html">Sumate al equipo</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__column">
+            <h3>Novedades</h3>
+            <nav>
+                <ul>
+                    <li><a href=""></a>Fallo xxxx</li>
+                    <li><a href=""></a>Derecho comercial </li>
+                    <li><a href=""></a>últimas actualizaciones</li>
+                    <li><a href=""></a>Actualizaciones</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__column">
+            <h3>Clientes</h3>
+            <nav>
+                <ul>
+                    <li>Compromiso</li>
+                    <li>Testimonios</li>
+                </ul>
+            </nav>
+        </div>
+    </div>  
+</footer>
+
+</body>
+</html>

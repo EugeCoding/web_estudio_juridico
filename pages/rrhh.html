@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumate al Equipo</title>
+    <link rel="icon" href="../images/logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <!-- Font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header__boxcontainer">
+            <a href="./index.html">
+                <img src="../images/logo.jpg" alt="logo" class="logo_Image">
+            </a>
+        </div>
+        <label for="menu" class="header__burguerMenu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu">
+        <nav class="header__menudespegable">
+            <label for="menu" class="header__closeMenu">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </label>
+            <ul class="lista__menu">
+                <li><a href="../pages/index.html">Inicio</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/areas_de_practica.html">Áreas de Práctica</a></li>
+                <li><a href="../pages/servicios.html">Servicios</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN  -->
+    <main>
+        <h1>Sumate al Equipo</h1>
+        <h2 class="subtitulo_paginaRRHH">Trabajá con nosotros y potenciá tu carrera profesional</h2>
+        <p>Nuestro equipo está creciendo y buscamos nuevos talentos que quieran ser parte de uno de los estudios más
+            importantes en Derecho Comercial de la región. Si sos recién graduado o ya tenés experiencia en la
+            profesión, dejanos tu CV y contanos por qué querés trabajar con nosotros.</p>
+
+        <div class="flex-containter__contacto">
+            <form action="/ruta-destino" method="get">
+                <div class="formulario_rrhh">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="text" name="lastname" placeholder="Apellido" required>
+                    <input type="text" name="email" placeholder="E-mail" required>
+                    <input type="number" name="phone" placeholder="Celular">
+                    <textarea class="textarea__contacto" name="messege"
+                        placeholder="Contanos por qué te gustaría trabajar con nosotros." cols="50" rows="20"></textarea required>
+                </div>
+                <div>
+                    <h4>Experiencia en la profesión</h4>
+                    <input type="radio" name="experiencia" id="estudiante" value="estudiante">
+                    <label for="estudiante">Soy abogad@ recién graduado sin experiencia ejerciendo la profesión</label>
+                    <input type="radio" name="experiencia" id="graduado" value="graduado">
+                    <label for="estudiante">Soy abogad@ con experiencia ejerciendo la profesión</label>
+                    <input type="radio" name="experiencia" id="conexperiencia" value="conexperiencia">
+                    <label for="estudiante">Soy estudiante de Abogacía</label>
+
+                    <p>Subi tu CV en PDF</p>
+                    <input type="file" name="cv" multiple accept=".pdf">
+                    <button type="reset">Limpiar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+        </form>
+</div>        
+       
+</main>
+
+<!-- FOOTER  -->
+<footer>
+    <div>
+        <div class="footer__column">
+            <h3>Institucional</h3>
+            <nav>
+                <ul>
+                    <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="./contacto.html">Donde estamos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./rrhh.html">Sumate al equipo</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__column">
+            <h3>Novedades</h3>
+            <nav>
+                <ul>
+                    <li><a href=""></a>Fallo xxxx</li>
+                    <li><a href=""></a>Derecho comercial </li>
+                    <li><a href=""></a>últimas actualizaciones</li>
+                    <li><a href=""></a>Actualizaciones</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__column">
+            <h3>Clientes</h3>
+            <nav>
+                <ul>
+                    <li>Compromiso</li>
+                    <li>Testimonios</li>
+                </ul>
+            </nav>
+        </div>
+    </div>  
+</footer>
+
+</body>
+</html>
